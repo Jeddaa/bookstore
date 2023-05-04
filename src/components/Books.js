@@ -11,8 +11,8 @@ const Books = () => {
   ];
   return (
     <div>
-      <Inputbook />
       <Booklist books={books} />
+      <Inputbook />
     </div>
   );
 };
