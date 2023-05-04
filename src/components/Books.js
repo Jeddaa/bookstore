@@ -1,9 +1,7 @@
-// import useState from 'react';
-import Booklist from './Booklist';
-import Inputbook from './Inputbook';
+import BookList from './BookList';
+import InputBook from './InputBook';
 
 const Books = () => {
-  // eslint-disable-next-line no-unused-vars
   const books = [
     { title: 'name of the wind', author: 'patrick rothfuss', id: 1 },
     { title: 'the final empire', author: 'brandon sanderson', id: 2 },
@@ -11,8 +9,8 @@ const Books = () => {
   ];
   return (
     <div>
-      <Booklist books={books} />
-      <Inputbook />
+      <BookList books={books} />
+      <InputBook />
     </div>
   );
 };
