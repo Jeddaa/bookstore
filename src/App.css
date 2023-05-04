@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;700&display=swap');
 .App {
   padding: 2em;
   background-color: #e5e5e5;
   margin: 1em;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .navbar {
@@ -41,4 +43,27 @@
 
 .nav-link:visited {
   color: #f51a1a;
+}
+
+.input-book-form > label > input {
+  height: 2em;
+  margin: 0.5em;
+  border: 1px solid #000;
+}
+
+. .input-book-form > label > h2 {
+  margin: 0;
+}
+
+.input-book-div {
+  display: flex;
+  padding: 1em;
+}
+
+.add-book-btn {
+  /* margin: 0; */
+  height: 2.5em;
+  align-self: flex-end;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
 }
