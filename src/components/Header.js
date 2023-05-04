@@ -2,13 +2,17 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <nav className="navbar">
-    <h1>Bookstore CMS</h1>
+    <h1 className="nav-header">Bookstore CMS</h1>
     <ul>
       <li>
-        <Link to="/">Books</Link>
+        <Link className="nav-link" to="/">
+          BOOKS
+        </Link>
       </li>
       <li>
-        <Link to="/categories">Categories</Link>
+        <Link className="nav-link" to="/categories">
+          CATEGORIES
+        </Link>
       </li>
     </ul>
   </nav>
