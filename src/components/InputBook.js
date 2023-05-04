@@ -1,4 +1,4 @@
-const Inputbook = () => (
+const InputBook = () => (
   <div>
     <form>
       <label htmlFor="test">
@@ -11,4 +11,4 @@ const Inputbook = () => (
   </div>
 );
 
-export default Inputbook;
+export default InputBook;
