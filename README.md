@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Math Magicians</b></h3>
+  <h3><b>BookStore</b></h3>
 
 </div>
 
@@ -14,7 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+    <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 BookStore <a name="about-project"></a>
 
 Bookstore is a website for book lovers. It is a Single Page App (SPA) that allows the display of a list of books, add a book, remove a selected book.
 
@@ -44,6 +44,13 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   <summary>Client</summary>
   <ul>
     <li>React</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>Redux</li>
   </ul>
 </details>
 
@@ -65,18 +72,18 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
 
 ### Key Features <a name="key-features"></a>
 
-- Project setup with React
-- Add components
+- Project setup with Redux
+- Add Redux components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 - Not available for now
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -98,7 +105,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:ikennarichard/Math-Magicians.git
+  git clone https://github.com/Jeddaa/bookstore.git
 ```
 
 ### Install
