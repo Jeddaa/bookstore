@@ -72,8 +72,9 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
 
 ### Key Features <a name="key-features"></a>
 
-- Project setup with Redux
-- Add Redux components
+- Add Book feature
+- Remove Book feature
+- Display a list of books
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,9 +171,8 @@ Not available
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Book feature
-- Remove Book feature
-- Display a list of books
+- connect to an api to display more books
+- Style the book store
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
