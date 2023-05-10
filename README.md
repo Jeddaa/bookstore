@@ -105,7 +105,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:ikennarichard/Math-Magicians.git
+  git clone https://github.com/Jeddaa/bookstore.git
 ```
 
 ### Install
