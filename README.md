@@ -21,7 +21,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  <!-- - [Deployment](#deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -183,7 +183,7 @@ Not available
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Jeddaa/math-magicians/issues).
+Feel free to check the [issues page](https://github.com/Jeddaa/bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
