@@ -54,7 +54,7 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li>Not Available</li>
@@ -66,7 +66,7 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   <ul>
     <li>Not Available</li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
@@ -150,11 +150,11 @@ npx stylelint "**/*.{css,scss}"
   npx eslint "**/*.{js,jsx}"
 ```
 
-### Deployment
+<!-- ### Deployment
 
 Not available
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- AUTHORS -->
 
@@ -207,6 +207,6 @@ Thanks to the Microverse team for this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/math-magicians/blob/develop/LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/bookstore/blob/feature/styling/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
