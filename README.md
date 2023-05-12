@@ -76,6 +76,7 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   - display a list of books
   - add a book
   - remove a book
+- Style the book store
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +173,7 @@ Not available
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Style the book store
+- Build the categories page to display the list of categories
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

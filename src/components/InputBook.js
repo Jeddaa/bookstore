@@ -36,29 +36,28 @@ const InputBook = () => {
     }
   };
   return (
-    <div>
-      <form>
-        <label htmlFor="test">
-          ADD NEW BOOK
-          <input type="text" name="title" placeholder="Book title" value={title || ''} onChange={(e) => setTitle(e.target.value)} />
-          <input type="text" name="author" placeholder="Author" value={author || ''} onChange={(e) => setAuthor(e.target.value)} />
-          <select type="text" name="category" value={category} onChange={(e) => setCategory(e.target.value)} required>
-            <option value="" disabled selected>
-              select Category
-            </option>
-            <option>Fiction</option>
-            <option>Horror</option>
-            <option>Romance</option>
-            <option>Science</option>
-            <option>NonFiction</option>
-          </select>
-        </label>
+    <>
+      <hr className="input-line" />
+      <h3 className="input-header"> ADD NEW BOOK</h3>
+      <form className="input-form">
+        <input type="text" name="title" placeholder="Book title" value={title || ''} onChange={(e) => setTitle(e.target.value)} className="input-title" />
+        <input type="text" name="author" placeholder="Author" value={author || ''} onChange={(e) => setAuthor(e.target.value)} className="input-author" />
+        <select type="text" name="category" value={category} onChange={(e) => setCategory(e.target.value)} className="input-category" required>
+          <option value="" placeholder="category">
+            Category
+          </option>
+          <option>Fiction</option>
+          <option>Horror</option>
+          <option>Romance</option>
+          <option>Science</option>
+          <option>NonFiction</option>
+        </select>
       </form>
-      <button type="submit" onClick={handleSubmit}>
+      <button type="submit" onClick={handleSubmit} className="input-btn">
         ADD BOOK
       </button>
       <span className="error">{error}</span>
-    </div>
+    </>
   );
 };
 
