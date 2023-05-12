@@ -16,7 +16,7 @@ const BookList = () => {
       {isLoading && <h1>Loading...</h1>}
       {isError && <h1>Something went wrong...</h1>}
       {books && (
-      <ul>
+      <ul className="book-card-ul">
         {books.map((book) => (
           <Book
             key={book.id}

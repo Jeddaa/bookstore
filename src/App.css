@@ -1,3 +1,317 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 90vw;
+  padding: 1em 3em;
+}
+
+.navbar-div {
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  margin: 1em;
+}
+
+.nav-header {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  padding: 0.2em;
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #0290ff;
+}
+
+.navbar-div > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar-div > ul > li {
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #121212;
+  font-size: 0.813em;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:visited {
+  color: #4386bf;
+}
+
+.user-icon-btn {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  align-self: center;
+  padding: 1em;
+  margin-right: 2em;
+}
+
+.user-icon {
+  font-size: 2em;
+}
+
+.book-list {
+  padding: 3em;
+}
+
+.book-card-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em;
+  padding: 0;
+}
+
+.book-card-li {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.2em;
+  padding: 1em;
+}
+
+.book-card-div {
+  background-color: #fff;
+  width: 50%;
+}
+
+.category,
+.title,
+.author {
+  margin: 0.2em 0 0 0;
+  padding: 0;
+}
+
+.category {
+  color: #121212;
+  font-size: 0.875em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 50%;
+}
+
+.title {
+  font-size: 1.375em;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #121212;
+}
+
+.author {
+  color: #4386bf;
+  font-size: 0.875em;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+.book-deets {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 2em;
+}
+
+.book-card-btns > button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  color: #4386bf;
+}
+
+.book-card-btns {
+  display: flex;
+  margin-top: 1em;
+  gap: 0.7em;
+}
+
+.loading-btn {
+  display: flex;
+  align-self: center;
+  color: #307bbe;
+  font-size: 5em;
+}
+
+.book-comp-div {
+  display: flex;
+}
+
+.loading-li > p {
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  color: #121212;
+  opacity: 50%;
+}
+
+.loading-li > h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #121212;
+}
+
+.loading-li {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  padding: 0;
+  justify-content: center;
+}
+
+.book-progress-line {
+  align-self: center;
+  width: 0.125rem;
+  height: 6rem;
+  margin: 0 3em;
+  padding: 0;
+  border-left: solid 0.1px #e8e8e8;
+  color: #e8e8e8;
+}
+
+.book-progress-div > p {
+  margin: 0;
+}
+
+.book-progress-div > h2 {
+  margin: 0;
+}
+
+.book-progress-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.5em;
+  gap: 0.7em;
+}
+
+.curr-chpt {
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  color: #121212;
+}
+
+.chpt-no {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #121212;
+}
+
+.update-prog-btn {
+  border-radius: 3px;
+  background-color: #0290ff;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 0.813rem;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.5px;
+}
+
+.btn-line {
+  width: 0.125rem;
+  height: 1.5rem;
+  border-left: solid 0.1px #e8e8e8;
+  color: #e8e8e8;
+}
+
+.input-line {
+  width: 90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: solid 1px #e8e8e8;
+}
+
+.input-header {
+  margin: 1em;
+  letter-spacing: -0.18px;
+  color: #888;
+  width: 90vw;
+  padding-left: 2em;
+}
+
+.input-form {
+  display: flex;
+  margin: 0 2.3em;
+  gap: 1em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0 1em;
+  width: 90vw;
+}
+
+.input-title {
+  width: 37%;
+  height: 2.813rem;
+  padding: 0 1em;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.input-author {
+  width: 37%;
+  height: 2.813rem;
+  padding: 0 1em;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.input-category {
+  width: 25%;
+  height: 3rem;
+  padding: 0 1em;
+  align-self: center;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.input-btn {
+  background-color: #0290ff;
+  width: 11.5rem;
+  border-radius: 3px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 1em;
+  height: 2.813rem;
+  border: none;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin: 1.2em 3.3em;
 }

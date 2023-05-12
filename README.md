@@ -21,7 +21,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  <!-- - [Deployment](#deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -54,7 +54,7 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li>Not Available</li>
@@ -66,7 +66,7 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   <ul>
     <li>Not Available</li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
@@ -76,6 +76,7 @@ Bookstore is a website for book lovers. It is a Single Page App (SPA) that allow
   - display a list of books
   - add a book
   - remove a book
+- Style the book store
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,11 +150,11 @@ npx stylelint "**/*.{css,scss}"
   npx eslint "**/*.{js,jsx}"
 ```
 
-### Deployment
+<!-- ### Deployment
 
 Not available
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- AUTHORS -->
 
@@ -172,7 +173,7 @@ Not available
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Style the book store
+- Build the categories page to display the list of categories
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,7 +183,7 @@ Not available
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Jeddaa/math-magicians/issues).
+Feel free to check the [issues page](https://github.com/Jeddaa/bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,6 +207,6 @@ Thanks to the Microverse team for this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/math-magicians/blob/develop/LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/bookstore/blob/feature/styling/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
