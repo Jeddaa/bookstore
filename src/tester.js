@@ -16,3 +16,6 @@
 //       author: 'Richard Dawkins',
 //       category: 'Nonfiction',
 //     },
+
+/* background-color: #fff; */
+/* border: 1px solid #e8e8e8; */

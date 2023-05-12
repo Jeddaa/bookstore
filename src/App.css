@@ -266,11 +266,11 @@ li {
 
 .input-form {
   display: flex;
-  margin: 2em 2.3em;
+  margin: 0 2.3em;
   gap: 1em;
   border-radius: 0.2em;
   border: none;
-  padding: 0.5em 1em;
+  padding: 0 1em;
   width: 90vw;
 }
 
@@ -313,5 +313,5 @@ li {
   border: none;
   letter-spacing: 0.5px;
   color: #fff;
-  margin: 0 3.3em;
+  margin: 1.2em 3.3em;
 }
