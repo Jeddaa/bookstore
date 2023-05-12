@@ -268,9 +268,8 @@ li {
   display: flex;
   margin: 2em 2.3em;
   gap: 1em;
-  background-color: #fff;
-  border: 1px solid #e8e8e8;
   border-radius: 0.2em;
+  border: none;
   padding: 0.5em 1em;
   width: 90vw;
 }
@@ -314,5 +313,5 @@ li {
   border: none;
   letter-spacing: 0.5px;
   color: #fff;
-  margin: 0 2.5em;
+  margin: 0 3.3em;
 }
